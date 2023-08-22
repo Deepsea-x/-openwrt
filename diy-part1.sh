@@ -16,9 +16,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-# 修改默认LAN IP地址和子网掩码
-sed -i 's/192.168.1.1/192.168.31.18/g' package/base-files/files/bin/config_generate
-# 修改默认网关地址
-sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
 
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
