@@ -13,6 +13,6 @@
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 # 修改默认LAN IP地址和子网掩码
-sed -i 's/192.168.1.1/192.168.31.18/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.11/g' package/base-files/files/bin/config_generate
 # 修改默认网关地址
-sed -i 's/192.168.1.1/192.168.31.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate 
